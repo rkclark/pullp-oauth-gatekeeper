@@ -7,7 +7,7 @@
     "oauth"
   ],
   "scripts": {
-    "start": "node server.js"
+    "start": "dotenv -e .env node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
   "author": "Michael Aufreiter",
   "contributors": [],
   "dependencies": {
+    "dotenv-cli": "^1.4.0",
     "express": "~3.16.0"
   },
   "engines": {
